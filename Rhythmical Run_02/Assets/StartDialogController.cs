@@ -13,7 +13,7 @@ public class StartDialogController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -24,7 +24,7 @@ public class StartDialogController : MonoBehaviour
 
     public void PushCancelButton()
     {
-        startDialog.SetActive (false);
+        startDialog.SetActive(false);
     }
 
     public void PushStartButton()
